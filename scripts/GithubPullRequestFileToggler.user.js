@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Pull request file view toggler
-// @version      0.2
+// @version      0.3
 // @description  Mark first visible file as viewed easily
 // @author       You
 // @match        https://github.com/*
@@ -47,7 +47,7 @@
             markFirstUnviewedFileAsViewed();
             }
 
-            if (e.key === 'c') {
+            if (e.key === 'b') {
                 markFirstViewedFileAsUnviewed();
             }
         }
