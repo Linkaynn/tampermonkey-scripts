@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Pull request file view toggler
-// @version      0.1
+// @version      0.2
 // @description  Mark first visible file as viewed easily
 // @author       You
-// @match        https://github.com/*/pull/*
+// @match        https://github.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
 // @grant        none
 // ==/UserScript==
@@ -47,7 +47,7 @@
             markFirstUnviewedFileAsViewed();
             }
 
-            if (e.key === 'u') {
+            if (e.key === 'c') {
                 markFirstViewedFileAsUnviewed();
             }
         }
