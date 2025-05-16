@@ -43,11 +43,11 @@
         if (e.ctrlKey || e.metaKey || e.shiftKey) return;
 
         if (e.altKey) {
-            if (e.key === 'v') {
+            if (['v', '√'].includes(e.key)) {
             markFirstUnviewedFileAsViewed();
             }
 
-            if (e.key === 'b') {
+            if (['b', 'ß'].includes(e.key)) {
                 markFirstViewedFileAsUnviewed();
             }
         }
